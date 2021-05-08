@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+    .navbar{
+        color: white;
+    }
+    
+    .navbar .navbar-brand{
+        text-decoration: none;
+        color: white;
+    }
+    .btn1{
+        background: #808080;
+        color: white;
+        border:1px white solid;
+        border-radius:2px
+        width:50%;
+    }
+    .btn2{
+        background:#808080;
+        color: white;
+        border:1px white solid;
+        border-radius:2px
+        width:50%;
+    }
+    .btn1:hover{
+        background:black;
+        cursor: pointer;
+
+    }
+    .btn2:hover{
+        background:black;
+        cursor: pointer;
+
+    }
+    .dot {
+        margin-top: 30px;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+}   
+.bigdot {
+        margin-top: 30px;
+  height: 75px;
+  width: 75px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.images img{
+    padding-left:20px;
+    margin-bottom:30px;
+    object-fit:cover;
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg  bg-dark">
+        <div class="left">
+        <a style="padding-left:250px;" class="navbar-brand" href="#">AUSART</a>
+    </div>
+        <div class="right">
+        
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link disabled " style="padding-left:350px;" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Contact us</a>
+              </li>
+          </ul>
+        
+    </div>
+      </nav>
+      <div class="row" style="background-image: url(images/bgimg.jpg);background-repeat: no-repeat;background-size: cover;">
+          <div class="col-md-2"></div>
+      <div class="col-md-3 mt-5 pb-5">
+          <h5>Great, Responsive</h5>
+          <h4 style="color:white;">Retina Ready</h4>
+          <p style:"font-weight:bold;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus arcu odio, id </p>
+          <button class="btn1">Take a look Button</button>
+          <button class="btn2">Take a look Button</button>
+          <div>
+          <span class="dot"></span>
+          <span class="dot" style="background-color: rgb(48, 48, 216);"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="row" style="margin-left: 150px; margin-right: 150px;">
+        <div class="col-md-4" style="text-align:center;">
+            <span class="bigdot"></span>
+            <h6>Clean Design</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus arcu</p>
+        </div>
+        <div class="col-md-4" style="text-align:center;">
+            <span class="bigdot" style="background-color: rgb(4, 94, 179);"></span>
+            <h6>Responsive</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus arcu</p>
+        </div>
+        <div class="col-md-4" style="text-align:center;">
+            <span class="bigdot"></span>
+            <h6>Clean Design</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus arcu</p>
+        </div>
+    </div>
+    <div class="row mt-3 " style="background-color:lightgray">
+        <div class="col">
+        <h6 style="margin-top: 20px; margin-left:50px" >Recent work</h6>
+        <hr>
+        <br>
+        <div class="images pl-5">
+        <img style=" float:left; display:inline" src="images/andro.jpg" width="240" height="120" alt="" />
+      <img style=" float:left; display:inline"  src="images/room.jpg" width="240" height="120" alt="" />
+      <img style=" float:left; display:inline"  src="images/frog.jpg" width="240" height="120" alt="" />
+      <img style=" float:left; display:inline"  src="images/room.jpg" width="240" height="120" alt="" />
+      <img style=" float:left; display:inline"   src="images/frog.jpg" width="240" height="120" alt="" />
+      <img style=" float:left; display:inline"   src="images/andro.jpg" width="240" height="120" alt="" />
+    </div>
+    </div>
+    </div>
+    <div class="row" style=" background-image: url(images/bg1.jpg);background-repeat: no-repeat;background-size: cover;" >
+        <div class="col-md-4 mt-4" style="margin-left: 25%;">
+            <h5>This is a large notice box for all presentation needs.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        </div>
+        <div class="col-md-4 mt-4 ">
+            <button class="btn btn-primary">Read More</button>
+        </div>
+    </div>
+    
+    <div class="row text-light bg-dark" >
+        <div class="col-md-3 mt-4" style="margin-left:260px">
+            <h6 style="font-size: small;">ABOUT OLIVER</h6>
+            <p style="font-size: x-small;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+        </div>
+        <div class="col-md-3 mt-4">
+            <h6 style="font-size: small;">RECENT POSTS</h6>
+            <p style="font-size: x-small;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+            <P style="font-size: x-small;"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</P>
+        </div>
+        <div class="col-md-3 mt-4">
+            <h6 style="font-size: small;">CONTACT INFO</h6>
+            <p style="font-size: x-small;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p>
+            
+        </div>
+    </div>
+
+</body>
+</html>
